@@ -131,11 +131,17 @@ console.log(latestShoppingCart(shoppingCart));
 */
 
 const loopUntil = function (x) {
-    let randomNumber = Math.floor(Math.random()*10)
-for(let i=0; i<x; i++)
-{
-    if(randomNumber > x)
-    {}
+    let count 
+    let randomNumber
+    while (count<3)
+   { randomNumber = Math.floor(Math.random()*10)
+   }
+
+if( randomNumber > x){
+    count ++
+}
+else {
+    count= 0
 }
 }
 console.log(loopUntil())
